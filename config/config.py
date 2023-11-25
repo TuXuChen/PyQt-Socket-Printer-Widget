@@ -59,7 +59,7 @@ class Config(QConfig):
     TcpPort = ConfigItem("Tcp", "Port", 6666, IntConfigValidator(6666))
 
     SocketServerHost = ConfigItem("SocketServer", "Host", "127.0.0.1")
-    SocketServerPort = ConfigItem("Socket", "Port", 8888, IntConfigValidator(8888))
+    SocketServerPort = ConfigItem("SocketServer", "Port", 8888, IntConfigValidator(8888))
 
 
 YEAR = 2023
