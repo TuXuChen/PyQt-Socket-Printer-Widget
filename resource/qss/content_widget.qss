@@ -1,0 +1,4 @@
+ContentWidget#contentWidget {
+
+   border-image: url(%s)
+}

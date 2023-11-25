@@ -1,0 +1,32 @@
+QWidget#editLabel[color="black"][border="0"] {
+    border: @border_size@px @border_type@ black;
+    background-color: white;
+}
+QWidget#editLabel[color='yellow'][border="0"] {
+    border: @border_size@px @border_type@ yellow;
+    background-color: white;
+}
+QWidget#editLabel[color="black"][border="1"] {
+    border-top: @border_size@px @border_type@ black;
+    background-color: white;
+}
+QWidget#editLabel[color='yellow'][border="1"] {
+    border-top: @border_size@px @border_type@ yellow;
+    background-color: white;
+}
+QWidget#editLabel[color="black"][border="2"] {
+    border-bottom: @border_size@px @border_type@ black;
+    background-color: white;
+}
+QWidget#editLabel[color='yellow'][border="2"] {
+    border-bottom: @border_size@px @border_type@ yellow;
+    background-color: white;
+}
+QWidget#editLabel[color="black"][border="3"] {
+    border: none;
+    background-color: white;
+}
+QWidget#editLabel[color='yellow'][border="3"] {
+    border: @border_size@px @border_type@ yellow;
+    background-color: white;
+}

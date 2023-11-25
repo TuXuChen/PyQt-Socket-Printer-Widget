@@ -1,0 +1,6 @@
+QLabel {
+      background: transparent;
+      font: 13px 'Segoe UI';
+      padding: 0 4px;
+      color: black;
+}

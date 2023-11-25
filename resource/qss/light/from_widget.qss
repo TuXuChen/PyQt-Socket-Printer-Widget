@@ -1,0 +1,13 @@
+QScrollArea {
+    border: none;
+    background-color: transparent;
+
+    font: 42px 'Segoe UI SemiBold', 'Microsoft YaHei SemiBold';
+    background-color: transparent;
+    color: black;
+    padding-left: 12px;
+}
+
+BodyLabel {
+     color: black;
+}

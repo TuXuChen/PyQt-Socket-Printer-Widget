@@ -1,0 +1,34 @@
+{
+    "Socket": {
+        "Address": "127.0.0.1",
+        "Port": 8888
+    },
+    "SocketServer": {
+        "Host": "127.0.0.1"
+    },
+    "Tcp": {
+        "Host": "127.0.0.1",
+        "Port": 6666
+    },
+    "Material": {
+        "AcrylicBlurRadius": 14
+    },
+    "Folders": {
+        "Cache": "D:/WorkSpace/PyQt-Socket-Printer-Widget/system/cache",
+        "Download": "D:/WorkSpace/PyQt-Socket-Printer-Widget/system/download",
+        "File": "D:/WorkSpace/PyQt-Socket-Printer-Widget/system/file",
+        "LocalMusic": []
+    },
+    "Update": {
+        "CheckUpdateAtStartUp": true
+    },
+    "MainWindow": {
+        "DpiScale": 1,
+        "IsRemind": true,
+        "Language": "zh_CN"
+    },
+    "QFluentWidgets": {
+        "ThemeColor": "#ff504ab3",
+        "ThemeMode": "Light"
+    }
+}

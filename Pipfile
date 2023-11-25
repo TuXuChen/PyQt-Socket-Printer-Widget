@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.org/simple/"
+verify_ssl = true
+name = "pypi-775"
+
+[packages]
+pyqt5 = "*"
+pyqt5-tools = "*"
+pyqt-fluent-widgets = {version = "*", index = "pypi-775"}
+dbutils = "*"
+pyinstaller = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.4"
