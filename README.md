@@ -7,7 +7,7 @@
 		<img src="https://img.shields.io/badge/Python_vsersion-3.11.4-green" ></img>
         <img src="https://img.shields.io/badge/Pyqt5-5.15.9-green" ></img>
         <img src="https://img.shields.io/badge/Pyqt5_tools-5.15.9-blue" ></img>
-        <img src="https://img.shields.io/badge/Pyqt_fluent_widgets-5.15.9-blue" ></img>
+        <img src="https://img.shields.io/badge/Pyqt_fluent_widgets-1.3.8-green" ></img>
         <img src="https://img.shields.io/badge/pyinstaller-6.2.0-blue" ></img>
 </a></p>
 
