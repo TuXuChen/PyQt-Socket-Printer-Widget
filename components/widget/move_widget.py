@@ -412,9 +412,9 @@ class TableMoveWidget(QTableWidget):
             return super().mouseMoveEvent(evt)
 
     # 窗口改变事件
-    def resizeEvent(self, event) -> None:
-        self.resizeWidget()
-        return super().resizeEvent(event)
+    # def resizeEvent(self, event) -> None:
+    #     self.resizeWidget()
+    #     return super().resizeEvent(event)
 
     # 设置每列宽度一样
     def resizeWidget(self):
