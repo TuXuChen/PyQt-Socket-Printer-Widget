@@ -273,12 +273,12 @@ class TableWidget(TableMoveWidget):
                                       self.tr('选择'),
                                       self.tr('点击为表格删除一行'),
                                       self.__onRemoveRowWidgetClicked)
-        self.cellWidthWidget = self.menuWidget.addSliderCard(self.tr('单元格宽度:'),
-                                                             1, 1000, self.getSelectedWidth(),
-                                                             self.__onCellWidthWidgetReleased)
-        self.cellHeightWidget = self.menuWidget.addSliderCard(self.tr('单元格宽度:'),
-                                                              1, 1000, self.getSelectedHeight(),
-                                                              self.__onCellHeightWidgetReleased)
+        self.cellWidthWidget = self.menuWidget.addSpinBox(self.tr('单元格宽度:'),
+                                                          self.getSelectedWidth(),
+                                                          self.__onCellWidthWidgetReleased)
+        self.cellHeightWidget = self.menuWidget.addSpinBox(self.tr('单元格高度:'),
+                                                           self.getSelectedHeight(),
+                                                           self.__onCellHeightWidgetReleased)
         self.menuWidget.addPushButton(self.tr('合并单元格:'),
                                       self.tr('合并'),
                                       self.tr('点击合并单元格'),
