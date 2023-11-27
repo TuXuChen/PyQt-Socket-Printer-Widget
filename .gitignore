@@ -25,7 +25,6 @@ share/python-wheels/
 .idea/
 test/
 system/
-/system
 .installed.cfg
 *.egg
 MANIFEST
