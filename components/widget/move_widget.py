@@ -412,9 +412,9 @@ class TableMoveWidget(QTableWidget):
             return super().mouseMoveEvent(evt)
 
     # 窗口改变事件
-    # def resizeEvent(self, event) -> None:
-    #     self.resizeWidget()
-    #     return super().resizeEvent(event)
+    def resizeEvent(self, event) -> None:
+        self.resizeHeight()
+        return super().resizeEvent(event)
 
     # 设置每列宽度一样
     def resizeWidget(self):
@@ -425,6 +425,9 @@ class TableMoveWidget(QTableWidget):
         for col in range(num_columns):
             self.setColumnWidth(col, int(column_width))
 
+        self.resizeHeight()
+
+    def resizeHeight(self):
         height = self.height()
         height = height - (self.contentsMargins().top() + self.contentsMargins().bottom())
         total_height = 0
@@ -433,4 +436,5 @@ class TableMoveWidget(QTableWidget):
             row_height = self.rowHeight(row)
             total_height += row_height
         if total_height >= height:
-            self.setFixedHeight(total_height + 2)
+            self.setFixedHeight(total_height + 2)            
+
